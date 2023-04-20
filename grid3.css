@@ -1,0 +1,22 @@
+.container{
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+.items{
+    background-color: bisque;
+    border: 2px solid lightcoral;
+    margin: 10px;
+}
+.item1{
+    grid-column: 1/span 3;
+}
+.item2{
+    height:500px;
+}
+.item6{
+    grid-column: 2/4;
+}
